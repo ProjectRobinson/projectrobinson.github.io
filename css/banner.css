@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,800,900&display=swap");
-
+html {
+    overflow-x: hidden;
+}
 * {
   margin: 0;
   padding: 0;
@@ -51,7 +53,4 @@ h1 {
   100% {
     background-position: 0 50%;
   }
-}
-html {
-    overflow-x: hidden;
 }
