@@ -25,7 +25,22 @@
     <div id="fcf-form">
     <h3 class="fcf-h3">Contact us</h3>
 
-    <form id="fcf-form-id" class="fcf-form-class" method="post" action="contact-form-process.php">
+    <form id="fcf-form-id" class="fcf-form-class" form action"POST" data-netlify="true">
+								<div class="fields">
+									<div class="field half">
+										<input type="text" name="Name" id="name" placeholder="Name" />
+									</div>
+									<div class="field half">
+										<input type="email" name="Email" id="email" placeholder="Email" />
+									</div>
+									<div class="field">
+										<textarea name="message" id="Please provide details regarding your project" placeholder="Message" rows="7"></textarea>
+									</div>
+									<div class="field">
+										<input type="file" name="myfile" id="myfile" placeholder="Upload File" rows="7" />
+									</div>
+									<div class="field">
+										<div data-netlify-recaptcha="true"</div>
         
         <div class="fcf-form-group">
             <label for="Name" class="fcf-label">Name</label>
