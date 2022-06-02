@@ -5,48 +5,54 @@
 		5/21/2022
 -->
 <html lang="en">
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, intial-scale=1">
-    <title>
-      Contact
-    </title>
-  </head>
-  <body>
-    <header>
        <img src="images/phil.jpg" alt="phil" height="70" width="70" />
-    </header>
-<!-- Main element holds main webpage content -->
-	 <main>
-		 <link href="contact-form.css" rel="stylesheet">
+	<head>
+		<title>Contact Project Robinson</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		<link rel="stylesheet" href="css/main.css" />
+	</head>
+	<body class="is-preload">
 
-<div class="fcf-body">
+		<!-- Wrapper -->
+			<div id="wrapper">
 
-    <div id="fcf-form">
-    <h3 class="fcf-h3">Contact us</h3>
+				<!-- Intro -->
 
-    <form action"POST" data-netlify="true">
+					<section>
+						<header>
+							<h2>Get in touch</h2>
+						</header>
+						<div class="content">
+							<p><strong>Contact Project Robinson!</strong> I would be happy to provide input on anything you are working on</p>
+							<form action"POST" data-netlify="true">
 								<div class="fields">
 									<div class="field half">
-										<input type="text" name="Name" id="name" placeholder="Name" />
+										<input type="text" name="name" id="name" placeholder="Name" />
 									</div>
 									<div class="field half">
-										<input type="email" name="Email" id="email" placeholder="Email" />
+										<input type="email" name="email" id="email" placeholder="Email" />
 									</div>
 									<div class="field">
-										<textarea name="message" id="Please provide details regarding your project" placeholder="Message" rows="7"></textarea>
+										<textarea name="message" id="message" placeholder="Message" rows="7"></textarea>
 									</div>
 									<div class="field">
-										<input type="file" name="myfile" id="myfile" placeholder="Upload File" rows="7" />
+										<input type="file" name="myfile" id="myfile" placeholder="Upload File 50KB MAX" rows="7" />
 									</div>
 									<div class="field">
 										<div data-netlify-recaptcha="true"</div>
-        
+								</div>
+								</div>
 								<ul class="actions">
 									<li><input type="submit" value="Send Message" class="button primary" /></li>
 								</ul>
 							</form>
-
+						</div>
+						<footer>
+</footer>
+	</body>
     </div>
 
 </div>
